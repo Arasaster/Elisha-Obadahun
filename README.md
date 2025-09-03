@@ -1,2 +1,0 @@
-# Elisha-Obadahun
-Elisha Obadahun
