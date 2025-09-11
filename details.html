@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Elisha Excel Obadahun | </title> <!-- i'd be back -->
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+      <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+      
+      <!-- Primary SEO Meta Tags -->
+        <meta name="description" content="Elisha Excel Obadahun is a Creative, designer, and storyteller helping brands find identity through powerful visuals and intentional design." />
+        <meta name="keywords" content="Elisha Excel Obadahun, Brand designer, brand identity expert, creative storyteller, graphic designer, visual identity, brand strategy, Logos Designer" />
+        <meta name="author" content="Elisha Excel Obadahun" />
+      
+      <!-- Open Graph / Facebook -->
+        <meta property="og:title" content="Elisha Excel Obadahun | Brand Designer" />
+        <meta property="og:description" content="Discover the work and vision of Elisha Excel Obadahun | Founder of Uthux." />
+        <meta property="og:image" content="https://elishaobadahun.netlify.app/favicon.png" />
+        <meta property="og:url" content="https://elishaobadahun.netlify.app/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Elisha Excel Obadahun | Brand Designer" />
+      
+      <!-- Twitter Meta -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@elishaobadahun" />
+        <meta name="twitter:title" content="Elisha Excel Obadahun | Brand Designer" />
+        <meta name="twitter:description" content="Official site of Elisha Excel Obadahun | Brand Designer | Founder of Uthux" />
+        <meta name="twitter:image" content="https://elishaobadahun.netlify.app/favicon.png" />
+      
+      <!-- Canonical Link -->
+        <link rel="canonical" href="https://elishaobadahun.netlify.app/" />
+      
+      <!-- Preconnect to external resources -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      
+      <!-- Font preloading if you're using web fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Your+Font+Family&display=swap" rel="stylesheet" />
+      
+      <!-- Analytics (example with Google Analytics) -->
+        <!-- Google tag (gtag.js) -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-GT4ZBQT31C"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+            
+                gtag('config', 'G-GT4ZBQT31C');
+            </script>
+</head>
+<body>
+    <header>
+        <nav class="glass">
+            <ul class="nav-links">
+                <li>
+                    <a style="display: inline-block; flex-direction: row;" href="index.html#me" class="nav-txt nav-btn">
+                        👨Me
+                    </a>
+                </li>
+                <li><a href="index.html#works" class="nav-txt nav-btn">Works</a></li>
+                <li><a id="open" class="nav-txt h-glow btn-outline">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="modal-container" id="modal-container">
+        <div class="modal">
+            <div class="modal-top">
+                <h1 style="font-size: calc(16px + 1vw);">Get in touch</h1>
+                <button style="background: none; font-size: 30px; cursor: pointer; border: none; color: #ba0000;" id="close">⨉</button>
+            </div>
+            <div class="modal-body">
+                <form name="Contact" method="POST" data-netlify="true">
+                  <input type="Name" name="Name" placeholder="Your Name">
+                  <input type="email" name="Email" placeholder="Your Email Address">
+                  <textarea name="Message" name="Message" placeholder="Write your Message Here" id=""></textarea>
+                  <button type="submit" class="modal-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <style>
+      body {
+        height: 75vh;
+        background-image:
+            linear-gradient(
+                rgba(255, 255, 255, 0.005) .1rem,
+                transparent .1rem),
+            linear-gradient(
+                90deg, 
+                rgba(255, 255, 255, 0.005) .1rem, 
+                transparent .1rem);
+        background-size: 1rem 1rem;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+      .bento-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1rem;
+      }
+
+      .bento-grid img {
+        width: 100%;
+        object-fit: contain;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        transition: transform 0.3s ease;
+      }
+
+      .bento-grid img:hover {
+        transform: scale(1.05);
+      }
+      .p-d {
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        position: relative;
+        top: 0;
+      }
+      .p-d>img {
+        overflow: hidden;
+        width: 100%;
+        width: 100%;
+        object-fit: cover;
+        background-color: rgb(0, 0, 0);
+        mask-image: 
+          linear-gradient(
+              to top, black 50%, black 0%, 
+              transparent 100%);
+      }
+      .res {
+        position: static;
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 100%;
+        text-align: left;
+      }
+    </style>
+    <!-- PROJECT DETAILS -->
+    <main class="details" id="details-container"></main>
+
+    <script>
+      // Get ID from query string
+      let id = new URLSearchParams(window.location.search).get("id");
+    
+      fetch("works.json") // same folder
+        .then(res => res.json())
+        .then(data => {
+          console.log("Fetched data:", data);
+          console.log("Looking for ID:", id);
+    
+          const work = data.find(item => item.id == id);
+    
+          if (!work) {
+            document.getElementById("details-container").innerHTML = '<p>Work not found.</p><a href="../">Go Back</a>';
+            return;
+          }
+    
+          // Build image gallery
+          const galleryHTML = work.images.map(img => `<img src="${img}" alt="${work.title}" loading="lazy" dragable="false">`).join("");
+          const btsHTML = work.bts.map(img => `<img src="${img}" alt="${work.bts}" loading="lazy" dragable="false">`).join("");
+    
+          // Stars
+          const stars = "★".repeat(work.rating);
+          const starss = "★".repeat(5 - work.rating);
+    
+          // Full details block
+          const item = `
+            <div class="p-d">
+              <img src="${work.thumbnail}" alt="${work.title}">
+            </div>
+    
+            <div class="res" id="details">
+              <span class="pgraph"></span>
+              <div class="stars">${work.rating} <span class="rating">${stars}</span>${starss}</div>
+
+              <h2 class="decor-font">Introduction</h2>
+              <p class="pgraph" id="description">${work.description}</p>
+              <br>
+
+              <h2 class="decor-font">What I've done</h2>
+              <p class="pgraph" id="description">${work.wid}</p>
+              <br>
+
+              <h2 class="decor-font">BTS</h2>
+              <p class="pgraph" id="description">${work.btstext}</p>
+              <div class="bento-grid" id="images">${btsHTML}</div>
+              <br>
+
+              <h2 class="decor-font">Final</h2>
+              <div class="bento-grid" id="images">${galleryHTML}</div>
+              <br>
+
+              <p style="color: #a1a1a1;"  class="ps pgraph">Client Review</p><p> </p>
+              <h1 class="review">${work.review}</h1>
+              <span class="client pgraph">${work.client}</span> • <span class="c-info pgraph">${work.role}</span>
+              <br>
+
+              <div class="lastly">
+                <p style="color: #a1a1a1; box-sizing" class="ps pgraph">Date of Production</p>
+                <h1 id="date" style="color: #e8960e;">${work.date}</h1>
+              </div>
+            </div>
+          `;
+    
+          document.getElementById("details-container").innerHTML = item;
+        })
+        .catch(err => console.error("Error loading works.json:", err));
+    </script>
+<style>
+  .review {
+    line-height: 24px;
+    border-left: 3px dashed #6e6e6e;
+    padding-left: 1%;
+    margin-top: 10px;
+  }
+  .lastly {
+    padding-top: 30px;
+  }
+</style>
+
+    <div id="year" class="footer">© 2025 Uthux</div>
+    <script>document.getElementById('year').textContent = "© " + new Date().getFullYear() + " Uthux"; </script>
+</body>
+<script src="../script.js"></script>
+
+</html>

@@ -52,10 +52,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins thin', sans-serif;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
     line-height: 60px;
     color: var(--text-primary);
     background-color: var(--bg-dark);
@@ -103,7 +103,7 @@ header {
     max-width: 1000px;
     width: 300px;
     height: 50px;
-    background: rgba(255, 255, 255, 0);
+    background: rgba(0, 0, 0, 0.5);
     padding: 7px 9px 9px 9px;
     border-radius: 10mm;
     transition: 0.5s;
@@ -163,6 +163,85 @@ nav>ul>li {
     color: #FFFFFF;
     font-weight: 700;
     border-radius: 100px;
+}
+
+/* MODAL */
+.modal-container {
+    opacity: 0; 
+    pointer-events: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins thin', sans-serif;
+    transition: opacity .3s ease;
+    z-index: 101;
+}
+
+.modal-container.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal {
+    background-color: white;
+    color: black;
+    width: 500px;
+    max-width: 95%;
+    border-radius: 10px;
+    padding: 30px 50px;
+    box-shadow:
+    0 0 5px var(--primary-color),
+    0 0 20px var(--primary-color),
+    0 0 50px var(--primary-color),
+    0 0 100px var(--primary-color);
+}
+
+.modal-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.modal-body input, .modal-body textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: none;
+    background-color: #f2f2f2;
+    font-family: 'Poppins thin', sans-serif;
+}
+.modal-body textarea{
+    height: 120px;
+    resize: none;
+}
+
+::placeholder {
+    font-family: 'Poppins thin', sans-serif;
+}
+
+.modal-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    color: white;
+    font-family: 'Poppins thin', sans-serif;
+    font-size: 17px;
+    background: var(--primary-color);
 }
 
 .hero {
@@ -234,7 +313,7 @@ body {
   }
   
 .auto-move {
-    animation: moveLeft 3s ease-in forwards;
+    animation: moveLeft 1s ease forwards;
 }
 
 b {
@@ -345,23 +424,22 @@ b {
 }
 
 .box:hover {
-    opacity: 1;
-    transition: opacity 500ms;
+    filter: saturate(1) brightness(1);
+    transition: filter 500ms;
 }
 
 .box {
-    opacity: 70%;
+    filter: saturate(0.6) brightness(0.8) ;
     background-color: #202020;
     flex: 1 1 calc(33.333% - 1rem);
     max-width: calc(33.333% - 1rem);
     aspect-ratio: 4 / 5;
     border-radius: 10px;
-    border: 1px solid #333333;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: relative;
-    transition: opacity 500ms;
+    transition: filter 500ms;
 }
 
 .box > img {
@@ -376,13 +454,14 @@ b {
 }
 
 .date {
-    color: #7d7d7d;
+    color: #c0c0c0;
     font-size: 12px;
 }
 
 .box > .box-content {
     position:absolute;
     padding: 20px;
+    border-radius: 10px;
     padding-bottom: 10px;
     width: 100%;
     bottom: 0;

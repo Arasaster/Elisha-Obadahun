@@ -64,13 +64,29 @@
                     </a>
                 </li>
                 <li><a href="#works" class="nav-txt nav-btn">Works</a></li>
-                <li><a href="#contact" class="nav-txt h-glow btn-outline">Contact</a></li>
+                <li><a id="open" class="nav-txt h-glow btn-outline">Contact</a></li>
             </ul>
         </nav>
     </header>
+    <div class="modal-container" id="modal-container">
+        <div class="modal">
+            <div class="modal-top">
+                <h1 style="font-size: calc(16px + 1vw);">Get in touch</h1>
+                <button style="background: none; font-size: 30px; cursor: pointer; border: none; color: #ba0000;" id="close">⨉</button>
+            </div>
+            <div class="modal-body">
+                <form name="Contact" method="POST" data-netlify="true">
+                  <input type="Name" name="Name" placeholder="Your Name">
+                  <input type="email" name="Email" placeholder="Your Email Address">
+                  <textarea name="Message" name="Message" placeholder="Write your Message Here" id=""></textarea>
+                  <button type="submit" class="modal-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
     <div class="hero">
         <div class="container">
-                <img src="Profile Picture 2025.png" style="position: relative; z-index: -1; border-radius: 100px; width: 70px; filter: saturate(0); border: 2px solid #a1a1a1;" alt="">
+                <img src="Profile Picture 2025.png" style="position: relative; z-index: -1; border-radius: 100px; width: 70px; filter: saturate(0); border: 2px solid #a1a1a1;" alt="" draggable="false" loading="lazy">
                 <h1 class="decor-font">Elisha Obadahun</h1>
                 <p class="pgraph">I design everything a brand needs to stand out from identity to packaging to movement.</p>
         </div>
@@ -109,40 +125,63 @@
               <li>Video Editing</li>
             </ul>
             <div class="s-icons">
-              <img src="SVG/ps.svg" width="30px" alt="Photoshop">
-              <img src="SVG/moho.svg" width="30px" alt="Moho">
-              <img src="SVG/blender.svg" width="30px" alt="Blender">
-              <img src="SVG/pr.svg" width="30px" alt="Premiere Pro">
-              <img src="SVG/ai.svg" width="30px" alt="Illustrator">
+              <img src="SVG/ps.svg" width="30px" alt="Photoshop" draggable="false" loading="lazy">
+              <img src="SVG/moho.svg" width="30px" alt="Moho" draggable="false" loading="lazy">
+              <img src="SVG/blender.svg" width="30px" alt="Blender" draggable="false" loading="lazy">
+              <img src="SVG/pr.svg" width="30px" alt="Premiere Pro" draggable="false" loading="lazy">
+              <img src="SVG/ai.svg" width="30px" alt="Illustrator" draggable="false" loading="lazy">
             </div>
           </div>
         </div>
         <div class="a1 shad">
-          <img src="me.png" alt="">
+          <img src="bio-info.png" alt="" draggable="false" loading="lazy">
         </div>
       </div>
     </div>
     <div id="works" class="works">
       <div class="container">
         <br>
-        <h1 class="decor-font">Works</h1>
-        <div class="box-con">
-          <div class="box">
-            <img src="work/Zip Bag Isometric Mockup.png" alt="">
-            <div class="box-content">
-              <div class="stars"><span class="rating">★★★</span>★★</div>
-              <h1 class="decor-font" style="font-size: calc(80% + 2rem);">Alpha Punch</h1>
-              <p class="pgraph">Product Packaging Design.</p>
-              <div class="bottom">
-                <p class="date">27th August, 2025</p>
-                <a href=""><i class="fa">↗ </i></a>
+        <h1 id="works" class="decor-font">Works</h1>
+        <div id="box-con" class="box-con"></div>
+    
+    <script>
+      fetch("works.json")
+        .then(res => res.json())
+        .then(data => {
+          const container = document.getElementById("box-con");
+          container.innerHTML = ""; // clear any old content
+    
+          data.forEach(work => {
+            const stars = "★".repeat(work.rating);
+            const starss = "★".repeat(5 - work.rating);
+    
+            const item = `
+              <div class="box">
+                <img src="${work.thumbnail}" alt="${work.title}" draggable="false" loading="lazy">
+                <div class="box-content">
+                  <div class="stars"><span class="rating">${stars}</span>${starss}</div>
+                  <h1 class="decor-font" style="font-size: calc(80% + 2rem);">${work.title}</h1>
+                  <p class="pgraph">${work.category}</p>
+                  <div class="bottom">
+                    <p class="date">${work.date}</p>
+                    <!-- relative link (no leading slash) -->
+                    <a href="details.html?id=${work.id}"><i class="fa">↗ </i></a>
+                  </div> 
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
+            `;
+    
+            container.innerHTML += item;
+          });
+        })
+        .catch(err => console.error("Error loading works.json:", err));
+    </script>
+    
       </div>
     </div>
-    <div class="footer">© 2025  Uthux</div>
+    <div id="year" class="footer"></div>
+    <script>document.getElementById('year').textContent = "© " + new Date().getFullYear() + " Uthux"; </script>
 </body>
 <script src="script.js"></script>
+
 </html>

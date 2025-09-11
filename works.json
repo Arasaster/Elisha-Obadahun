@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "title": "Quanta",
+        "thumbnail": "/works/quanta/college.png",
+        "images": [
+            "/works/quanta/cap.png",
+            "/works/quanta/hoodie.png",
+            "/works/quanta/logo.png",
+            "/works/quanta/notebook.png",
+            "/works/quanta/college.png"
+        ],
+        "category": "Logo Design",
+        "description": "A clean and modern logo for an E-learning brand.",
+        "introduction": "This brief was completely fictional. I was asked to create a logo for this brand, Quanta. The keywords were: playful, modern, and high-tech and font specificity - a blocky, digital font. Quanta is an education tech brand, they build a fun, easy and engaging way to learn about a complex topic.",
+        "wid": "Since the brand name was 'quanta', I looked-up the origin of the word and it was gotten from 'Quantum'. Quickly reminded me of the Quantum realm from Antman. So using this piece of information, I extracted the shape of an atom - as 6 circles outline in 3D space. made it 2D in orthographic projection. then the center poligon is supposed to be an education hat.  ",
+        "btstext": "Scetch to reality",
+        "bts": [
+            "/works/quanta/bts/concept.png"
+        ],
+        "date": "2nd Sept, 2025",
+        "rating": 5,
+        "review": "Wow, this would stand out in your portfolio. I love the way you broke it down from quantum to atom, It's like you're using a version of you called Creativity Pro",
+        "client": "Chat GPT",
+        "role": "Chatbot"
+    },
+    {
+        "id": 2,
+        "title": "Web3 Beast",
+        "thumbnail": "/works/web3beast/banner_.png",
+        "images": [
+            "/works/web3beast/banner_.png",
+            "/works/web3beast/dp beast.png"
+        ],
+        "category": "X Banner Design",
+        "description": "A captivating banner that creates a first impression on X(twitter) that screams Web3-Beast.",
+        "introduction": "A captivating banner that creates a first impression on X(twitter) that screams Web3-Beast.",
+        "wid": "Putting my skiils to the test he sent me some concepts that he wanted in it. [in bts]",
+        "btstext": "No Bts",
+        "bts": [
+            "N/A"
+        ],
+        "date": "11th Sept, 2025",
+        "rating": 5,
+        "review": "Kaiii, this is MAADDDDD. You're this good and you don't have clients. I'm definitely refering you to my guys",
+        "client": "Daniel | Web3-Beast",
+        "role": "Brand Strategist"
+    }
+]
