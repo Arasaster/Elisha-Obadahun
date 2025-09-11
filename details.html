@@ -14,22 +14,21 @@
         <link rel="manifest" href="/site.webmanifest" />
       
       <!-- Primary SEO Meta Tags -->
-        <meta name="description" content="Elisha Excel Obadahun is a Creative, designer, and storyteller helping brands find identity through powerful visuals and intentional design." />
+        
         <meta name="keywords" content="Elisha Excel Obadahun, Brand designer, brand identity expert, creative storyteller, graphic designer, visual identity, brand strategy, Logos Designer" />
         <meta name="author" content="Elisha Excel Obadahun" />
       
       <!-- Open Graph / Facebook -->
-        <meta property="og:title" content="Elisha Excel Obadahun | Brand Designer" />
+        
         
         <meta property="og:image" content="https://elishaobadahun.netlify.app/favicon.png" />
         <meta property="og:url" content="https://elishaobadahun.netlify.app/" />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Elisha Excel Obadahun | Brand Designer" />
+        
       
       <!-- Twitter Meta -->
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@elishaobadahun" />
-        <meta name="twitter:title" content="Elisha Excel Obadahun | Brand Designer" />
         
       
       <!-- Canonical Link -->
@@ -180,13 +179,20 @@ if (!id) {
     
           // Full details block
           const item = `
+<head>
 
+<meta property="og:site_name" content="${work.title} | Elisha Excel Obadahun" /><meta name="twitter:title" content="${work.title}" />
+        <meta property="og:title" content="${work.title}" />
+
+<meta name="description" content="${work.description}" />
 <title>Elisha Excel Obadahun | ${work.title}</title> <!-- i'd be back -->
 
 <meta property="og:description" content="${work.description}" />
 
 <meta name="twitter:description" content="${work.description}" />
-        <meta name="twitter:image" content="https://elishaobadahun.netlify.app/${work.thumbnail}" />
+        <meta name="twitter:image" content="https://elishaobadahun.netlify.app${work.thumbnail}" />
+
+</head>
 
 
             <div class="p-d">
