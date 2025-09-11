@@ -3,7 +3,7 @@
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Elisha Excel Obadahun | </title> <!-- i'd be back -->
+        
         <link rel="stylesheet" href="/styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
@@ -20,7 +20,7 @@
       
       <!-- Open Graph / Facebook -->
         <meta property="og:title" content="Elisha Excel Obadahun | Brand Designer" />
-        <meta property="og:description" content="Discover the work and vision of Elisha Excel Obadahun | Founder of Uthux." />
+        
         <meta property="og:image" content="https://elishaobadahun.netlify.app/favicon.png" />
         <meta property="og:url" content="https://elishaobadahun.netlify.app/" />
         <meta property="og:type" content="website" />
@@ -30,8 +30,7 @@
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@elishaobadahun" />
         <meta name="twitter:title" content="Elisha Excel Obadahun | Brand Designer" />
-        <meta name="twitter:description" content="Official site of Elisha Excel Obadahun | Brand Designer | Founder of Uthux" />
-        <meta name="twitter:image" content="https://elishaobadahun.netlify.app/favicon.png" />
+        
       
       <!-- Canonical Link -->
         <link rel="canonical" href="https://elishaobadahun.netlify.app/" />
@@ -181,6 +180,15 @@ if (!id) {
     
           // Full details block
           const item = `
+
+<title>Elisha Excel Obadahun | ${work.title}</title> <!-- i'd be back -->
+
+<meta property="og:description" content="${work.description}" />
+
+<meta name="twitter:description" content="${work.description}" />
+        <meta name="twitter:image" content="https://elishaobadahun.netlify.app/${work.thumbnail}" />
+
+
             <div class="p-d">
               <img src="${work.thumbnail}" alt="${work.title}">
             </div>
