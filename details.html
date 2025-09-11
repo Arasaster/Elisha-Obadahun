@@ -151,7 +151,12 @@
 
     <script>
       // Get ID from query string
-      let id = new URLSearchParams(window.location.search).get("id");
+     let id = new URLSearchParams(window.location.search).get("id");
+
+if (!id) {
+  const parts = window.location.pathname.split("/");
+  id = parts.pop() || parts.pop();  // handles trailing slash
+};
     
       fetch("/works.json") // same folder
         .then(res => res.json())
