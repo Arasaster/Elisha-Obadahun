@@ -1,1 +1,2 @@
-/works/:id        details.html?id=:id
+#/works/:id        details.html?id=:id
+/works/:id   /details.html?id=:id   200
