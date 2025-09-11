@@ -153,7 +153,7 @@
       // Get ID from query string
       let id = new URLSearchParams(window.location.search).get("id");
     
-      fetch("works.json") // same folder
+      fetch("/works.json") // same folder
         .then(res => res.json())
         .then(data => {
           console.log("Fetched data:", data);
