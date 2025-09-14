@@ -38,7 +38,7 @@ export async function handler(event) {
   <!-- Fallback message for scrapers -->
   <p>Redirecting to project…</p>
   <script>
-    window.location.href = "/works/details.html?id=${id}";
+    window.location.href = "/details.html?id=${id}";
   </script>
 </body>
 </html>`;
