@@ -8,10 +8,9 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
       <!-- Favicon -->
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="favicon.png" />
-        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/Profile Picture 2025.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png" />
       
       <!-- Primary SEO Meta Tags -->
         <meta name="description" content="Elisha Excel Obadahun is a Creative, designer, and storyteller helping brands find identity through powerful visuals and intentional design." />
@@ -21,7 +20,7 @@
       <!-- Open Graph / Facebook -->
         <meta property="og:title" content="Elisha Excel Obadahun | Brand Designer" />
         <meta property="og:description" content="Discover the work and vision of Elisha Excel Obadahun | Founder of Uthux." />
-        <meta property="og:image" content="https://elishaobadahun.netlify.app/favicon.png" />
+        <meta property="og:image" content="/Profile Picture 2025.png" />
         <meta property="og:url" content="https://elishaobadahun.netlify.app/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Elisha Excel Obadahun | Brand Designer" />
@@ -30,8 +29,8 @@
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@elishaobadahun" />
         <meta name="twitter:title" content="Elisha Excel Obadahun | Brand Designer" />
-        <meta name="twitter:description" content="Official site of Elisha Excel Obadahun | Brand Designer | Founder of Uthux" />
-        <meta name="twitter:image" content="https://elishaobadahun.netlify.app/favicon.png" />
+        <meta name="twitter:description" content="Official site of Elisha Excel Obadahun | Founder of Uthux" />
+        <meta name="twitter:image" content="/Profile Picture 2025.png" />
       
       <!-- Canonical Link -->
         <link rel="canonical" href="https://elishaobadahun.netlify.app/" />
@@ -165,7 +164,7 @@
                   <div class="bottom">
                     <p class="date">${work.date}</p>
                     <!-- relative link (no leading slash) -->
-                    <a href="works/${work.id}"><i class="fa">↗ </i></a>
+                    <a href="details.html?id=${work.id}"><i class="fa"><img src="/SVG/arrow-up-right-square-fill.svg" width="40px" style="opacity: 80%;" alt=""> </i></a>
                   </div> 
                 </div>
               </div>
@@ -176,8 +175,35 @@
         })
         .catch(err => console.error("Error loading works.json:", err));
     </script>
-    
+
+        </div>
+    <!-- <div class="container">
+      <br>
+      <h1 id="works" class="decor-font">Offers</h1>
+      <div id="box-con" class="box-con">
+        <div class="box offer pgraph">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id officia optio fuga neque dolore, suscipit odit, repudiandae illum similique aliquam pariatur tempore accusantium cumque earum nemo vel tempora numquam ipsa autem ullam repellat. Aspernatur quis numquam commodi dolorum ullam! Magnam voluptate dolores quo tenetur fugit laboriosam nisi dolorum pariatur in totam consectetur a minima animi repellendus quas nobis harum, tempore temporibus provident laudantium? Non quae rerum natus cum minima mollitia possimus! Blanditiis ut ipsa facere? In, illo alias architecto dolor iure cupiditate nemo rem ut tempore exercitationem beatae sint expedita labore doloribus iusto culpa vel quis repellat cum commodi eius?
+        </div>
+        <div class="box offer banger pgraph">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere molestias distinctio rem reiciendis optio laboriosam ullam, ad rerum eveniet quae provident! Dolores voluptas laborum quod minima cum ratione explicabo pariatur reiciendis. Animi distinctio ea molestias, non, nihil pariatur tempore minus expedita eligendi voluptates rerum, quia corporis voluptas rem quasi vitae itaque provident? Veniam tempore eos aut praesentium assumenda possimus porro reiciendis vel consectetur? Doloribus quas quaerat similique impedit perspiciatis accusantium tempora, fugit dolores vel praesentium minus eius autem vitae quos soluta incidunt nesciunt debitis hic ipsam, repellendus eos facere. Ullam necessitatibus non, sunt libero architecto debitis tempore laboriosam voluptas aspernatur.
+        </div>
+        <div class="box offer pgraph">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex aperiam voluptate sapiente reprehenderit maiores ad sint quaerat nulla voluptatum? Facere, ratione quas consequatur aperiam voluptatum, quam suscipit quibusdam quaerat voluptates quis voluptatem dicta. Quibusdam ipsa maxime ipsam iste, officia dignissimos nobis, odit deserunt sit saepe non quis aliquam deleniti cumque dicta impedit fugit dolor blanditiis consequuntur ducimus, similique ipsum eaque. Numquam amet necessitatibus perspiciatis asperiores alias blanditiis autem? Repudiandae, aliquid quo obcaecati adipisci odit voluptatum quis eaque aspernatur. Magni asperiores quia assumenda veniam. Eos molestias reiciendis recusandae aspernatur qui ipsum quisquam eaque autem et eligendi? Non repudiandae totam quos est.
+        </div>
       </div>
+      <style>
+        .banger {
+          background-color: #e8960e;
+        }
+        .offer{
+          padding: 20px;
+          max-height: max-content;
+        }
+      </style>
+    </div> -->
+
+  
+
     </div>
     <div id="year" class="footer"></div>
     <script>document.getElementById('year').textContent = "© " + new Date().getFullYear() + " Uthux"; </script>

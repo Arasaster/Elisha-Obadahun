@@ -45,5 +45,38 @@
         "review": "Kaiii, this is MAADDDDD. You're this good and you don't have clients. I'm definitely refering you to my guys",
         "client": "Daniel | Web3-Beast",
         "role": "Brand Strategist"
+    },
+    {
+        "id": 3,
+        "title": "Unity Bar and Restaurant",
+        "thumbnail": "/works/unity/tflyer.png",
+        "images": [
+            "/works/unity/cover.png",
+            "/works/unity/cards mockup.png",
+            "/works/unity/flyer.png",
+            "/works/unity/logo.png",
+            "/works/unity/paper bag with sticker mockup.png",
+            "/works/unity/screen mockup.png",
+            "/works/unity/tflyer.png",
+            "/works/unity/test.mp4"
+        ],
+        "category": "Logo Design",
+        "description": "An abstract icon logo that brings out unity's essence, while standing out.",
+        "introduction": "In Her words: 'Help me create a logo please.' ",
+        "wid": "I had the idea of a bar stool, Did some few sketches and went with this last option.",
+        "btstext": "N/A",
+        "bts": [
+            "/works/unity/bts5.jpg",
+            "/works/unity/sketch.png",
+            "/works/unity/bts1.jpg",
+            "/works/unity/bts2.jpg",
+            "/works/unity/bts3.jpg",
+            "/works/unity/bts4.jpg"
+        ],
+        "date": "13th Sept, 2025",
+        "rating": 5,
+        "review": "This is Good Elisha, Keep Learning.",
+        "client": "Abigail | Abigail Cake & Pasteries",
+        "role": "Founder"
     }
 ]

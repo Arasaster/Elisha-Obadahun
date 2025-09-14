@@ -1,2 +1,3 @@
 #/works/:id        details.html?id=:id
-/works/:id   /details.html?id=:id   200
+#/works/:id   /details.html?id=:id   200
+/works/:id   /.netlify/functions/work   200
