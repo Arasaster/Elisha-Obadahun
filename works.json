@@ -99,7 +99,30 @@
         "review": "This is a passion project and I haven't gotten the review yet.",
         "client": "Wilio | Domain",
         "role": "Agency"
-    }
+    },
+        {
+        "id": 4,
+        "title": "Wilio",
+        "thumbnail": "/works/klever/log.jpg",
+        "images": [
+            "/works/klever/logo.jpg",
+            "/works/klever/logo-motion.mp4"
+        ],
+        "category": "Logo Animation",
+        "description": "Logo animation",
+        "introduction": "Logo animation, passion project and isnt in any way affiliated to Klever Wallet, (at least for now 😅)",
+        "wid": "Creaged a Logo animation, Started with the logo gridline in plane sheet, then folding it like a paper.",
+        "btstext": "N/A",
+        "bts": [
+            "/works/klever/logo.jpg"
+        ],
+        "date": "18th Sept, 2025",
+        "rating": 5,
+        "review": "This is awesome 👏👏👏, 💜💜💜",
+        "client": "Klever | Wallet",
+        "role": "Web3 Wallet"
+        }
 
 ]
+
 
