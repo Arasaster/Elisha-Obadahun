@@ -79,4 +79,26 @@
         "client": "Abigail | Abigail Cake & Pasteries",
         "role": "Founder"
     }
+    {
+        "id": 4,
+        "title": "Wilio",
+        "thumbnail": "/works/wilio/remake.png",
+        "images": [
+            "/works/wilio/remake.png"
+        ],
+        "category": "Ad Design",
+        "description": "An ad design remake, passion project and isnt in any way affiliated to WILIO",
+        "introduction": "An ad design remake, passion project and isnt in any way affiliated to WILIO",
+        "wid": "Honestly, didn't do much just my skill of layout and modern aesthetics",
+        "btstext": "N/A",
+        "bts": [
+            "/works/wilio/old design.png"
+        ],
+        "date": "19th Sept, 2025",
+        "rating": 0,
+        "review": "This is a passion project and I haven't gotten the review yet.",
+        "client": "Wilio | Domain",
+        "role": "Agency"
+    }
+
 ]
