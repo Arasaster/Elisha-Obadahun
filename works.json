@@ -11,18 +11,18 @@
             "/works/quanta/college.png"
         ],
         "category": "Logo Design",
-        "description": "A clean and modern logo for an E-learning brand.",
-        "introduction": "This brief was completely fictional. I was asked to create a logo for this brand, Quanta. The keywords were: playful, modern, and high-tech and font specificity - a blocky, digital font. Quanta is an education tech brand, they build a fun, easy and engaging way to learn about a complex topic.",
-        "wid": "Since the brand name was 'quanta', I looked-up the origin of the word and it was gotten from 'Quantum'. Quickly reminded me of the Quantum realm from Antman. So using this piece of information, I extracted the shape of an atom - as 6 circles outline in 3D space. made it 2D in orthographic projection. then the center poligon is supposed to be an education hat.  ",
-        "btstext": "Scetch to reality",
+        "description": "A playful, modern identity concept for an edtech brand focused on making complex subjects easier and more engaging to learn.",
+        "introduction": "Quanta was a fictional edtech branding brief built around the ideas of learning, technology and curiosity. The direction called for something playful and modern while maintaining a high-tech feel.",
+        "wid": "The name Quanta immediately connected to the concept of quantum mechanics. I explored the idea of an atom and translated its orbital structure into a simplified geometric symbol. The central form was then developed to subtly reference an education cap, combining science, technology and learning into one mark.",
+        "btstext": "From sketch to final identity",
         "bts": [
             "/works/quanta/bts/concept.png"
         ],
         "date": "2nd Sept, 2025",
         "rating": 5,
-        "review": "Wow, this would stand out in your portfolio. I love the way you broke it down from quantum to atom, It's like you're using a version of you called Creativity Pro",
-        "client": "Chat GPT",
-        "role": "Chatbot"
+        "review": "The concept development is what makes this identity stand out. The connection from quantum to atom and finally to education gives the mark a clear visual story.",
+        "client": "Quanta",
+        "role": "Concept Brand Identity"
     },
     {
         "id": 2,
@@ -33,17 +33,17 @@
             "/works/web3beast/dp beast.png"
         ],
         "category": "X Banner Design",
-        "description": "A captivating banner that creates a first impression on X(twitter) that screams Web3-Beast.",
-        "introduction": "A captivating banner that creates a first impression on X(twitter) that screams Web3-Beast.",
-        "wid": "Putting my skiils to the test he sent me some concepts that he wanted in it. [in bts]",
-        "btstext": "No Bts",
+        "description": "A bold X banner and profile identity designed to create a strong first impression for a Web3-focused personal brand.",
+        "introduction": "The goal was to create a visual identity for Web3 Beast that immediately communicated confidence, energy and its position within the Web3 space.",
+        "wid": "The client provided initial concepts and references for the direction. I translated those ideas into a cleaner composition with stronger hierarchy, visual balance and a more distinctive Web3 aesthetic.",
+        "btstext": "Concept to final design",
         "bts": [
             "/works/web3beast/result.png"
         ],
         "date": "11th Sept, 2025",
         "rating": 5,
-        "review": "Kaiii, this is MAADDDDD. You're this good and you don't have clients. I'm definitely refering you to my guys",
-        "client": "Daniel | Web3-Beast",
+        "review": "Kaiii, this is MAADDDDD. You're this good and you don't have clients. I'm definitely referring you to my guys.",
+        "client": "Daniel | Web3 Beast",
         "role": "Brand Strategist"
     },
     {
@@ -60,11 +60,11 @@
             "/works/unity/tflyer.png",
             "/works/unity/test.mp4"
         ],
-        "category": "Logo Design",
-        "description": "An abstract icon logo that brings out unity's essence, while standing out.",
-        "introduction": "In Her words: 'Help me create a logo please.' ",
-        "wid": "I had the idea of a bar stool, Did some few sketches and went with this last option.",
-        "btstext": "N/A",
+        "category": "Logo & Brand Identity",
+        "description": "A distinctive visual identity concept for a bar and restaurant, built around the idea of unity and hospitality.",
+        "introduction": "The project started with a simple request to create a logo. The goal was to develop a memorable symbol that could work across the restaurant's physical and digital touchpoints.",
+        "wid": "I explored the idea of a bar stool as the foundation for the symbol. After several sketches, I refined the strongest concept into an abstract mark that communicates both the physical environment of a bar and the idea of people coming together.",
+        "btstext": "From sketch to identity",
         "bts": [
             "/works/unity/bts5.jpg",
             "/works/unity/sketch.png",
@@ -76,7 +76,7 @@
         "date": "13th Sept, 2025",
         "rating": 5,
         "review": "This is Good Elisha, Keep Learning.",
-        "client": "Abigail | Abigail Cake & Pasteries",
+        "client": "Abigail | Abigail Cake & Pastries",
         "role": "Founder"
     },
     {
@@ -87,20 +87,20 @@
             "/works/wilio/remake.png"
         ],
         "category": "Ad Design",
-        "description": "An ad design remake, passion project and isnt in any way affiliated to WILIO",
-        "introduction": "An ad design remake, passion project and isnt in any way affiliated to WILIO",
-        "wid": "Honestly, didn't do much just my skill of layout and modern aesthetics",
-        "btstext": "N/A",
+        "description": "A personal redesign study exploring how a cleaner layout and stronger visual hierarchy can improve a digital advertising creative.",
+        "introduction": "This was a personal design study and is not affiliated with Wilio. I used an existing creative as a starting point to explore how I could improve its visual communication.",
+        "wid": "The redesign focused primarily on layout, spacing, hierarchy and modern visual aesthetics. The goal was not to completely reinvent the concept, but to demonstrate how stronger design decisions can make an advertisement feel more polished and intentional.",
+        "btstext": "Original vs redesign",
         "bts": [
             "/works/wilio/old design.png"
         ],
         "date": "19th Sept, 2025",
         "rating": 0,
-        "review": "This is a passion project and I haven't gotten the review yet.",
-        "client": "Wilio | Domain",
-        "role": "Agency"
+        "review": "Personal project. No client review.",
+        "client": "Wilio",
+        "role": "Personal Redesign Study"
     },
-        {
+    {
         "id": 5,
         "title": "Klever Wallet",
         "thumbnail": "/works/klever/logo.jpg",
@@ -109,21 +109,211 @@
             "/works/klever/logo-motion.mp4"
         ],
         "category": "Logo Animation",
-        "description": "Logo animation",
-        "introduction": "Logo animation, passion project and isnt in any way affiliated to Klever Wallet, (at least for now 😅)",
-        "wid": "Creaged a Logo animation, Started with the logo gridline in plane sheet, then folding it like a paper.",
-        "btstext": "N/A",
+        "description": "A motion study exploring how a static brand mark can be transformed into a simple, memorable logo animation.",
+        "introduction": "This was a personal motion design study based on the Klever Wallet logo. The project was created as an exploration of logo animation and is not affiliated with Klever Wallet.",
+        "wid": "I started by studying the geometry of the logo and imagining how its grid structure could translate into motion. The animation develops from a flat geometric form into the finished logo, using a folding-paper-inspired movement.",
+        "btstext": "From static mark to motion",
         "bts": [
             "/works/klever/logo.jpg"
         ],
         "date": "18th Sept, 2025",
         "rating": 5,
-        "review": "This is awesome 👏👏👏, 💜💜💜",
-        "client": "Klever | Wallet",
-        "role": "Web3 Wallet"
-        }
-
+        "review": "This is awesome 👏👏👏",
+        "client": "Klever Wallet",
+        "role": "Personal Motion Study"
+    },
+    {
+        "id": 6,
+        "title": "Personal",
+        "thumbnail": "/works/personal/2.png",
+        "images": [
+            "/works/personal/1.mp4",
+            "/works/personal/2.mp4",
+            "/works/personal/4.mp4",
+            "/works/personal/5.mp4"
+        ],
+        "category": "Motion Graphics / Animation",
+        "description": "A collection of motion graphics and animation experiments created for my personal brands, exploring different approaches to movement, storytelling and visual identity.",
+        "introduction": "These pieces were created as part of my personal exploration of motion design for Uthux and my personal brand, Elisha Obadahun.",
+        "wid": "I experimented with different workflows and tools, including FlipaClip on mobile and Adobe After Effects on PC. The projects allowed me to explore animation, timing, transitions and visual storytelling while developing my motion design skills.",
+        "btstext": "Motion experiments",
+        "bts": [
+            "/works/personal/3.mp4"
+        ],
+        "date": "4th Oct, 2025",
+        "rating": 5,
+        "review": "Personal work. Created as part of my ongoing exploration of motion design.",
+        "client": "Elisha Obadahun / Uthux",
+        "role": "Personal Brand"
+    },
+    {
+        "id": 7,
+        "title": "House of Life Church",
+        "thumbnail": "/works/hol/sal.png",
+        "images": [
+            "/works/hol/Bs mar.png",
+            "/works/hol/july sunday.png",
+            "/works/hol/sshs.png",
+            "/works/hol/bbs.png",
+            "/works/hol/fpmmay14.png",
+            "/works/hol/ssf.png",
+            "/works/hol/pe.png",
+            "/works/hol/apr 12.png",
+            "/works/hol/24 march tue eph.png",
+            "/works/hol/glory mar 22.png",
+            "/works/hol/tarry.png",
+            "/works/hol/artboard 1.png",
+            "/works/hol/sal.png"
+        ],
+        "category": "Social Media Graphics",
+        "description": "A collection of social media graphics created for House of Life Church across regular services, special programs and church events.",
+        "introduction": "The project involves creating consistent and engaging promotional graphics for House of Life Church across its weekly services and special programs.",
+        "wid": "I developed graphics for Sunday, Tuesday and Friday services alongside special events and programs. The work required maintaining consistency while giving each service and announcement its own visual identity.",
+        "btstext": "A growing collection of church communications",
+        "bts": [],
+        "date": "2024 - 2026",
+        "rating": 5,
+        "review": "Wow, these are beautiful.",
+        "client": "House of Life Church",
+        "role": "Graphic Designer"
+    },
+    {
+        "id": 8,
+        "title": "CKCC",
+        "thumbnail": "/works/ckcc/fathers day.png",
+        "images": [
+            "/works/ckcc/fathers day.png",
+            "/works/ckcc/thumbnail ckcc.png",
+            "/works/ckcc/thanks giving.png"
+        ],
+        "category": "Social Media & Thumbnail Design",
+        "description": "A collection of promotional and social media graphics created for CKCC, covering church events, celebrations and digital content.",
+        "introduction": "The project focused on creating clear and visually engaging graphics that could communicate church events and announcements effectively across digital platforms.",
+        "wid": "I focused on creating strong visual hierarchy, readable typography and compositions that communicate the key information quickly while maintaining a consistent visual quality.",
+        "btstext": "Selected CKCC designs",
+        "bts": [],
+        "date": "May, 2026",
+        "rating": 5,
+        "review": "Client work created for CKCC.",
+        "client": "CKCC",
+        "role": "Graphic Designer"
+    },
+    {
+        "id": 9,
+        "title": "Eddy",
+        "thumbnail": "/works/eddy/class 2.0.png",
+        "images": [
+            "/works/eddy/class 2.0.png",
+            "/works/eddy/smallchops training.png",
+            "/works/eddy/smallchops training2.png",
+            "/works/eddy/val eddie.png",
+            "/works/eddy/menu eddie 1.png",
+            "/works/eddy/course.png",
+            "/works/eddy/SAVE_20251031_100312.jpg"
+        ],
+        "category": "Social Media & Promotional Design",
+        "description": "A collection of promotional graphics created for Eddy, covering courses, food services, events and other business communications.",
+        "introduction": "This collection demonstrates how I adapt visual design to different offers and communication needs while keeping each creative clear and commercially focused.",
+        "wid": "The work covered different types of promotional material, from training and educational offers to food-related promotions. I focused on making the information easy to understand while maintaining a strong visual presentation.",
+        "btstext": "Selected client work",
+        "bts": [],
+        "date": "July, 2026",
+        "rating": 5,
+        "review": "Client work created for Eddy Fries.",
+        "client": "Eddy Fries",
+        "role": "Graphic Designer"
+    },
+    {
+        "id": 10,
+        "title": "Proj. 65",
+        "thumbnail": "/works/Proj. 65/all.png",
+        "images": [
+            "/works/Proj. 65/all.png",
+            "/works/Proj. 65/1.jpg",
+            "/works/Proj. 65/2.jpg",
+            "/works/Proj. 65/3.jpg",
+            "/works/Proj. 65/123.jpg",
+            "/works/Proj. 65/hausa.png",
+            "/works/Proj. 65/igbo.png",
+            "/works/Proj. 65/yoruba.png",
+            "/works/Proj. 65/Free Mens Hoodie Mockup.png"
+        ],
+        "category": "Brand Identity",
+        "description": "A cultural streetwear branding concept exploring Nigerian identity through typography, apparel and multilingual visual elements.",
+        "introduction": "Proj. 65 was developed as a branding exploration focused on Nigerian cultural identity and contemporary streetwear. The project explores how language, symbols and apparel can work together to create a recognizable brand.",
+        "wid": "I explored the identity through a combination of typography, graphic elements and apparel applications. Hausa, Igbo and Yoruba versions were incorporated to emphasize the project's connection to Nigerian culture and its diverse audience.",
+        "btstext": "Building the identity",
+        "bts": [],
+        "date": "2025",
+        "rating": 5,
+        "review": "Personal branding exploration.",
+        "client": "Elisha ft Grey Collab",
+        "role": "Brand Designer"
+    },
+    {
+        "id": 11,
+        "title": "ThesisFormat",
+        "thumbnail": "/works/thesisformat/Snapinta.App_711567298_1347997624060525_8967476940388182487_n.jpg",
+        "images": [
+            "/works/thesisformat/Snapinta.App_711567298_1347997624060525_8967476940388182487_n.jpg"
+        ],
+        "category": "AI SaaS | Fullstack Development",
+        "description": "An AI-powered SaaS project built to simplify academic document formatting and help students produce properly structured academic work.",
+        "introduction": "ThesisFormat is a product development project focused on reducing the repetitive work involved in formatting academic documents. The concept combines software development with AI-assisted document processing.",
+        "wid": "The project involved thinking through the user workflow, document formatting requirements and the technical implementation needed to turn an academic formatting process into a web-based product.",
+        "btstext": "Building the product",
+        "bts": [],
+        "date": "2026",
+        "rating": 5,
+        "review": "An ongoing product development project.",
+        "client": "ThesisFormat",
+        "role": "Founder / Fullstack Developer"
+    },
+    {
+        "id": 12,
+        "title": "Okojere",
+        "thumbnail": "/works/induction/4.jpg",
+        "images": [
+            "/works/induction/2.jpg",
+            "/works/induction/3.jpg",
+            "/works/induction/4.jpg",
+            "/works/induction/6.jpg"
+        ],
+        "category": "Poster Design",
+        "description": "A poster design project focused on creating a visually strong composition for an induction-related event.",
+        "introduction": "The project involved developing an event poster that communicates the essential information while maintaining a strong visual presence.",
+        "wid": "I focused on hierarchy, typography, spacing and composition to make the important information immediately accessible while keeping the overall design visually engaging.",
+        "btstext": "Design development",
+        "bts": [
+            "works/induction/5.jpg",
+            "works/induction/7.jpg"
+        ],
+        "date": "2025",
+        "rating": 5,
+        "review": "Poster design project.",
+        "client": "Okojere",
+        "role": "Graphic Designer"
+    },
+    {
+        "id": 13,
+        "title": "Titan",
+        "thumbnail": "/works/titan/1.jpg",
+        "images": [
+            "/works/titan/1.jpg",
+            "/works/titan/10.jpg",
+            "/works/titan/11.jpg",
+            "/works/titan/12.jpg"
+        ],
+        "category": "Logo / Brand Design",
+        "description": "A bold identity exploration built around strength, structure and a distinctive visual character.",
+        "introduction": "Titan was a branding exploration focused on developing a strong and memorable identity. The project allowed me to experiment with form, typography and visual direction.",
+        "wid": "The identity was developed by exploring different forms and compositions before refining the strongest direction into a cohesive visual system. The goal was to create something that felt strong without becoming visually excessive.",
+        "btstext": "Exploring the identity",
+        "bts": [],
+        "date": "2025",
+        "rating": 5,
+        "review": "Personal brand identity exploration.",
+        "client": "Titan",
+        "role": "Brand Designer"
+    }
 ]
-
-
-
