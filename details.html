@@ -224,7 +224,7 @@ if (!id) {
           // Build image gallery
           function buildMediaHTML(src, title) {
             if (/\.(mp4|webm|ogg)$/i.test(src)) {
-              return `<video src="${src}" class="galitem" muted loop playsinline></video>`;
+              return `<video src="${src}#t=0.1" class="galitem" muted loop playsinline autoplay preload="metadata"></video>`;
             } else {
               return `<img src="${src}" alt="${title}" class="galitem" loading="lazy">`;
             }
@@ -295,8 +295,6 @@ if (!id) {
             video.muted = true;
             video.loop = true;
 
-            video.addEventListener("mouseenter", () => video.play());
-            video.addEventListener("mouseleave", () => { video.pause(); video.currentTime = 0; });
 
             // Fullscreen modal on click
             video.addEventListener("click", () => {
